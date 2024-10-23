@@ -20,7 +20,7 @@ const Header = () => {
         <>
             {/* Header Section */}
             <header className="text-white bg-gray-950">
-                <div className="container grid items-center h-12 grid-cols-2 px-4 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 sm:px-4 md:px-4 lg:px-0 xl:px-0 2xl:px-0">
+                <div className="container grid items-center h-12 grid-cols-2 px-4 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 sm:px-4 md:px-4 lg:px-4 xl:px-4 2xl:px-4">
                     
                     {/* Logo or Brand Name */}
                     <div className="text-2xl font-bold">
@@ -57,9 +57,9 @@ const Header = () => {
 
                     {/* Menu Links */}
                     <ul className="flex flex-col p-4 space-y-4">
-                        <li><a href="/profile" className="hover:text-gray-400">Profile</a></li>
-                        <li><a href="/settings" className="hover:text-gray-400">Settings</a></li>
-                        <li><a href="/logout" className="hover:text-gray-400">Logout</a></li>
+                        <li><a href="/profile" className="hover:text-gray-400">About</a></li>
+                        <li><a href="/settings" className="hover:text-gray-400">Services</a></li>
+                        <li><a href="/logout" className="hover:text-gray-400">Contact</a></li>
                     </ul>
                 </div>
 
